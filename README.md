@@ -12,26 +12,53 @@ This repository is organized as follows and contains:
 
 - `.gitignore`: File alerting Git to avoid "unnecessary" files from being committed to the repository. The data folder containing the 2025 TIGER/Line Shapefiles for the County Subdivisions were added to the `.gitignore` to prevent large datasets from being pushed to GitHub. 
 
-- `biodiversty-analysis.ipynb`: Notebook containing the 
+- `biodiversty-analysis-SHIRTEKAR.ipynb`: Notebook containing the biodiversity assessment for Phoenix (Maricopa County), examining the impacts of rapid development from 2017 to 2020.
 
 ```
 Biodiversity Intactness Index Change in Phoenix, AZ
 ├── README.md
-├── biodiversty-analysis.ipynb
+├── biodiversty-analysis-SHIRTEKAR.ipynb
 ├── .gitignore
 ```
     
     
 ## Data Access
-The data utilized in this analysis is not housed in this repository. [In Progress]
+*The data utilized in this analysis is not housed in this repository. 
+
+The Biodiversity Intactness Index (BII) is a global dataset that quantifies changes in biodiversity using species abundance information for plants, fungi, and animals [Natural History Museum (n.d.)](https://www.nhm.ac.uk/our-science/services/data/biodiversity-intactness-index.html). For this analysis, BII raster layers from 2017 and 2020 were obtained from the `io-biodiversity` collection in the [Microsoft Planetary Computer STAC catalog](https://planetarycomputer.microsoft.com/dataset/io-biodiversity) and clipped to the Phoenix subdivision. The index captures how terrestrial ecosystems respond to human pressures such as land-use change and increased intensity of development, providing insight into the degree to which local biodiversity remains intact over time.
+
+
+
+The U.S. Census Bureau provides public access to geographic boundary data through its [TIGER/Line® Shapefiles](https://www.census.gov/cgi-bin/geo/shapefiles/index.php) database. For this project, the [2025 Arizona County Subdivisions](https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2025&layergroup=County+Subdivisions) layer was downloaded to obtain county-level boundary shapefiles representing Arizona’s administrative divisions as of 2025.
+
 
 ## Contributors
 This repository is maintained by Vedika Shirtekar as part of the Master of Environmental Data Science program at UC Santa Barbara. This work was completed for the **EDS 220: Working with Environmental Datasets** course at the Bren School of Environmental Science and Management, which provided data access and documentation practices, as well as assignment instructions.
 
 
-
 ## References
+[1] *Biodiversity Intactness Index*. (n.d.). Natural History Museum. Retrieved December 5, 2025, from 
+https://www.nhm.ac.uk/our-science/services/data/biodiversity-intactness-index.html
 
-Levitt, Z. and Eng J., (2021, August 11). Where America’s developed areas are growing. The Washington Post. https://www.washingtonpost.com/nation/interactive/2021/land-development-urban-growth-maps/
 
-Maricopa county quick facts. (n.d.). Maricopa County, AZ. Retrieved December 7, 2025, from https://www.maricopa.gov/3598/County-Quick-Facts
+[2] EDS 220. (n.d.). *Working with Environmental Datasets*. Bren School of Environmental Science and Management. Accessed November 29, 2025, from 
+https://meds-eds-220.github.io/MEDS-eds-220-course/
+
+
+[3] Levitt, Z. and Eng J., (2021, August 11). *Where America’s developed areas are growing*. The Washington Post. Accessed December 5, 2025, from 
+https://www.washingtonpost.com/nation/interactive/2021/land-development-urban-growth-maps/
+
+
+[4] *Maricopa county quick facts*. (n.d.). Maricopa County, AZ. Accessed December 5, 2025, from 
+https://www.maricopa.gov/3598/County-Quick-Facts
+
+
+[5] Microsoft Planetary Computer. *Biodiversity Intactness Index (BII) Time Series*. [Dataset] Microsoft Planetary Computer. Accessed December 3, from
+https://planetarycomputer.microsoft.com/dataset/io-biodiversity
+
+
+[6] United States Census Bureau. *2025 TIGER/Line® Shapefiles: County Subdivisions* [Dataset]. U.S. Census Bureau. Accessed December 3, 2025, from 
+https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2025&layergroup=County+Subdivisions
+
+
+

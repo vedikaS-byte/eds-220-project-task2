@@ -1,5 +1,7 @@
 # Biodiversity Intactness Index Change in Phoenix, AZ
 
+![image.png](attachment:b5e88f94-d970-4dc3-924c-a2fbb38453c0.png)
+
 ## Description 
 Maricopa County, the fourth most populous county in the United States, is home to more than half of Arizona's residents and contains the state capital, Phoenix. As of 2022, the county had a population of 4.5 million people and was listed as the fastest-growing county in the U.S., adding nearly 56,000 residents between July 2021 and 2022 (Maricopa County, n.d.). This rapid population growth has contributed to the most significant increase in developed land in the county since at least 2001 (Levitt & Eng, 2021). Consequently, expanding urban sprawl has raised concerns about impacts on biodiversity and ecosystem health in the surrounding areas.
 
@@ -59,6 +61,3 @@ https://planetarycomputer.microsoft.com/dataset/io-biodiversity
 
 [6] United States Census Bureau. *2025 TIGER/Line® Shapefiles: County Subdivisions* [Dataset]. U.S. Census Bureau. Accessed December 3, 2025, from 
 https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2025&layergroup=County+Subdivisions
-
-
-
